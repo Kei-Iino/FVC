@@ -7,8 +7,8 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
-from model.utils.defconv2d import DeformConv2d
-from model.utils.bitestimate import Joint
+from utils.defconv2d import DeformConv2d
+from utils.bitestimate import Joint
 
 class resblock(nn.Module):
   def __init__(self, In, N, K):
