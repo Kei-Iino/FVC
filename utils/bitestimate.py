@@ -1,10 +1,3 @@
-"""
-Implementation of the model from the paper
-Minnen, David, Johannes Ballé, and George D. Toderici.
-["Joint autoregressive and hierarchical priors for learned image compression."](http://papers.nips.cc/paper/8275-joint-autoregressive-and-hierarchical-priors-for-learned-image-compression.pdf
-) Advances in Neural Information Processing Systems. 2018.
-"""
-
 import torch
 from torch import nn
 
